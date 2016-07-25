@@ -1,2 +1,1 @@
-# WordChangerExtension
-I'm practicing some Chrome Extensions. This just changes words it reads on webpages.
+This is your Chrome extension which replaces a word or phrase with a different word or phrase. 

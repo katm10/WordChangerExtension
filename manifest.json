@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Swear Word Changer",
+  "description": "Changes swear words.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+      "16": "swear16.png",
+      "48": "swear48.png",
+      "128": "swear128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+      "16": "swear16.png",
+      "48": "swear48.png",
+      "128": "swear128.png"
+    },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
